@@ -1,0 +1,29 @@
+/* Images
+.main_d
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.img1
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+} */
+
+#carouselExampleDark{
+    align-content: center;
+    padding-top: 50px;
+    height: 50%;
+    width: 50%
+    
+}

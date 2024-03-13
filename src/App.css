@@ -1,0 +1,355 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+body{
+   font-size: 14px;
+   background: #ffff;
+}
+.container
+{
+  background: white;
+  width: 500px;
+  padding: 25px;
+  margin: 50px auto 0;
+  /* border-top: 5px solid blue; */
+  /* box-shadow: 0 0 7px 5px rgba(0 , 0, 0, 0.5); */
+  /* border-radius: 5px; */
+  margin: auto;
+  margin-top: 10%;
+
+
+}
+.container h2
+{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.input-name
+{
+   width: 90%;
+   position: relative;
+   margin: 20px auto;
+}
+.lock
+{
+  padding: 8px 11px;
+}
+.name 
+{
+   width: 45%;
+   padding: 8px 0 8px 40px;
+}
+.input-name span 
+{
+    margin-left: 35px;
+}
+.text-name
+{
+   width: 100%;
+   padding: 8px 0 8px 40px;
+}
+
+.input-name i
+{
+     position: absolute;
+     font-size: 18px;
+     color: blue;
+     border-right: 1px solid #cccccc;
+}
+.email
+{
+   padding: 8px;
+}
+.mobile
+{
+   padding: 8px;
+}
+.branch
+{
+   padding: 8px;
+}
+.text-name, .name 
+{
+   border: 1px solid #cccccc;
+   outline: none;
+}
+.text-name:hover, .name:hover
+{
+   background-color: #fafafa;
+}
+
+.text-name:focus, .name:focus
+{
+   border: 1px solid blue;
+}
+
+.radio-button1
+{
+   margin-right: 10px;
+}
+.radio-button2
+{
+   margin-right: 10px;
+}
+/* .check
+{
+   margin-right: 15px;
+   position: relative;
+}
+.check::before
+{
+   content: "";
+   display: inline-block;
+   width: 8px;
+   height: 8px;
+   margin-right: 8px;
+   vertical-align: -2px;
+   border: 2px solid #cccccc;
+   padding: 2.5px;
+   background-color: transparent;
+   background-clip: content-box;
+   transition: all 0.2s ease;
+}
+.check::after
+{
+   border-right: 2px solid black;
+   border-top: 2px solid black;
+   content: "";
+   height: 20px;
+   left:2px;
+   position: absolute;
+   top: 7px;
+   transform: scaleX(-1) rotate(135deg);
+   transform-origin: left top;
+   width: 7px;
+   display: none;
+}
+.check-button
+{
+   border: 0;
+   clip: rect(0 0 0 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   width: 1px;
+}
+.check-button:hover +.check::before
+{
+   border-color: blue;
+
+}
+.check-button:checked +.check::before
+{
+    border-color: green;
+}
+.check-button:checked +.check::after
+{
+   -moz-animation: check 0.8s ease 0s running;
+   -webkit-animation: check 0.8s ease 0s running;
+   animation: check 0.8s ease 0s running;
+   display: block;
+   width: 7px;
+   height: 20px;
+   border-color: black;
+
+} */
+.button
+{
+   background-color: blue;
+   color: white;
+   height: 35px;
+   line-height: 35px;
+   width: 100%;
+   border-radius: 3px;
+   border: none;
+   outline: none;
+   font-size: 18px;
+   cursor: pointer;
+   /* margin-bottom: 4px; */
+}
+.button:hover
+{
+   background: green;
+}
+
+@media (max-width:480px)
+{
+   .container
+   {
+      width: 100%;
+   }
+   .input-name
+   {
+      margin-bottom: -10px;
+
+   }
+   .name
+   {
+     width: 100%;
+     padding: 8px 0 8px 40px;
+     margin-bottom: 10px;
+   }
+
+   .input-name span
+   {
+     padding: 0px 1px;
+     margin: 5px auto;
+     margin-left: 1px;
+
+   }
+   .form-container
+   {
+      width: 100%;
+   }
+
+
+}
+
+.container
+{
+    /* border: 2px solid black; */
+    max-width: 500px;
+    width: 100%;
+    background-color: #D3D3D3;
+    margin: 20px auto;
+    padding: 30px;
+}
+.container .title
+{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: rgb(253, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .form
+{
+    width: 100%;
+}
+.container .form .input_field
+{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.container .form .input_field label
+{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.container .form .input_field .input,
+.container .form .input_field .textarea
+{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(1, 10, 3);
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    
+}
+.container .form .input_field .textarea
+{
+    resize: none;
+    height: 70px;
+}
+.container .form .input_field .selectbox
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(1, 10, 3);
+    border-radius: 3px;
+    outline: none;
+}
+.container .form .input_field .input:focus,
+.container .form .input_field .selectbox:focus,
+.container .form .input_field .textarea:focus
+{
+    border: 1px solid rgb(231, 7, 7);
+}
+/* .container .form .input_field p
+{
+    font-size: 13px;
+    color: #757575;
+}
+.container .form .input_field .check
+{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;   
+}
+.container .form .input_field .check input[type="checkbox"]
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+      
+}
+.container .form .input_field .check .checkmark
+{
+    width: 15px;
+    height: 15px;
+    border: 1px solid rgb(1, 10, 3);
+    display: block;
+    position: relative;
+    
+}
+.container .form .input_field .check .checkmark :before
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent white white;
+
+} */
+.container .form .input_field .btn
+{
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 15px;
+    border: 0;
+    background: rgb(42, 165, 69);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;    
+}
+.container .form .input_field:last-child
+{
+    margin-bottom: 0;
+}
+
+.container .form .input_field .btn:hover
+{
+    background: rgb(0, 0, 0);
+}
+@media (max-width: 420px)
+{
+    .container .form .input_field
+{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container .form .input_field label
+{
+    margin-bottom: 5px;
+}
+}
